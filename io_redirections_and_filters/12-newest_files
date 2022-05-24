@@ -1,2 +1,2 @@
 #!/bin/bash
-find -name -type f head -10 | tail 0
+sort -name -type f head -10 | tail 0
