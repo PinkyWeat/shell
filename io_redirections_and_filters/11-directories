@@ -1,2 +1,2 @@
 #!/bin/bash
-wc -la -type d
+find . -type d -print | wc -la
