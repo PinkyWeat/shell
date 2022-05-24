@@ -1,2 +1,2 @@
 #!/bin/bash
-sort head -10 | tail 0 -name -type f
+ls -lt  | head
