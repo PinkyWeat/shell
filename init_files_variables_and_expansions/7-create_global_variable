@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo export BEST=School
+sudo BEST=School
