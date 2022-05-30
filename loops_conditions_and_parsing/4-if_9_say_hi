@@ -3,15 +3,14 @@
 
 i=0
 
-while [ $i -le 9 ]
+while [ $i -le 8 ]
  do
-    echo "Best School"
-
-    if [[ $i -gt 8 ]]
+    if [[ $i  <8 ]]
       then
-	      echo -e "Hi\nBest School"
+	      echo "Best School"
 	  (( i++))
     else
-	((i++))
+	echo -e "Hi\nBest School"
+	    ((i++))
     fi
  done 
