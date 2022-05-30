@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 #Script will display if file exists or not //
 
-if [[ -e ./school ]]
+if [[ -e "school" ]]
 then
    echo "school file exists"
- if [[ -s ./school ]]
+ if [[ -s "school" ]]
  then
    echo "school file is empty"
- elif [[ ! -s ./school ]] 
+ elif [[ ! -s "school" ]] 
  then
    echo "school file is not empty"
- elif [[ -f ./school ]]
+ elif [[ -f "school" ]]
  then
    echo "school is a regular file"
  fi
