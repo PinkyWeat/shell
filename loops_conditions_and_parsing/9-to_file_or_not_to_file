@@ -7,14 +7,19 @@ then
    
  if [[ -s "school" ]]
  then
-   echo "school file is empty"
- else  
    echo "school file is not empty"
+ else  
+   echo "school file is empty"
   fi
 
- if [[ -f "school" ]]
+ if [[ -e "school" && -f "school" ]]
  then
    echo "school is a regular file"
+ fi
+
+ if [[ -d "school" ]]
+ then
+   echo "school file exist"
  fi
 
 # loop file does not exist
