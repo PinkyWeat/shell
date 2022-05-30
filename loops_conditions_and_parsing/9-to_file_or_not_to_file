@@ -7,7 +7,7 @@ then
  if [[ -s "school" ]]
  then
    echo "school file is empty"
- elif [[ !-s "school" ]] 
+ elif [[ ! -s "school" ]] 
  then
    echo "school file is not empty"
  elif [[ -f "school" ]]
