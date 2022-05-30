@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#Script displays content of current directory in a list format, only showing the name after the first dash
+#not showing hidden files
+
+LIST="(ls)"
+
+for i in $LIST;
+     do 
+	cp "$i" "$i".bak; 
+    done
