@@ -5,13 +5,13 @@ i=0
 
 while [ $i -le 9 ]
    do
-      if [[ $i = 4 ]]
+      if [[ $i = 3 ]]
 	 then
-	      echo "Bad Luck"
+	      echo "bad luck"
 	   (( i++ ))
-    elif [[ $i = 8 ]]
+    elif [[ $i = 7 ]]
          then 
-	      echo "Good Luck" 
+	      echo "good luck" 
   	   (( i++ ))
     else
 	echo "Best School"
