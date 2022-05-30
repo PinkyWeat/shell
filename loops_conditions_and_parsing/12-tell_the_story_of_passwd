@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#Displaying a fun story for better understanding of the /etc/passwd file format
+
+USERNAME= cut -d: -f 1;
+GROUP_ID= cut -d: -f 4;
+HOME_DIRECTORY= cut -d: -f 6;
+COMMAND/SHELL= cut -d: -f 7;
+USER ID= cut -d: -f 3;
+PASSWORD= cut -d: -f 2;
+
+while read -r /etc/passwd
+ 
+  do
+      echo "The user $USERNAME is part of the $GROUP_ID gang, lives in $HOME_DIRECTORY and rides $COMMAND/SHELL. $USER ID's place is protected by the passcode $PASSWORD, more info about the user here: USER ID INFO"
+  
+  done
