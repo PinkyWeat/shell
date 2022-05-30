@@ -9,7 +9,7 @@ while [ $i -le 9 ]
 
     if [[ $i -gt 8 ]]
       then
-          echo "Hi"
+	      echo -e "Hi\nBest School"
 	  (( i++))
     else
 	((i++))
