@@ -3,9 +3,9 @@
 
 i=0
 
-while [ $i -le 8 ]
+while [ $i -le 9 ]
  do
-    if [[ $i -lt 8 ]]
+    if [[ $i -lt 9 ]]
       then
 	      echo "Best School"
 	  (( i++))
