@@ -2,9 +2,7 @@
 #Script displays content of current directory in a list format, only showing the name after the first dash
 #not showing hidden files
 
-LIST="(ls)"
-
-for i in $LIST;
+for i in *
      do 
-	cp "$i" "$i".bak; 
+	echo $i | cut -d- f 2 
     done
