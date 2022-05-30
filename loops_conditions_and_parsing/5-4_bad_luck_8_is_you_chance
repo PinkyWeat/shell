@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+#Script displays "bad luck" in the 4th loop // "good luck" in the 8th loop // "Best School" for all others
+
+i=0
+
+while [ $i -le 9 ]
+   do
+      if [[ $i = 4 ]]
+	 then
+	      echo "Bad Luck"
+	   (( i++ ))
+    elif [[ $i = 8 ]]
+         then 
+	      echo "Good Luck" 
+  	   (( i++ ))
+    else
+	echo "Best School"
+	   (( i++ ))
+    fi
+done
+        
