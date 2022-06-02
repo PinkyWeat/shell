@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #comment
 
-case
+case value in
 	start) 
 		./manage_my_process & 
 		echo '$!' >> /var/run/my_process.pid
@@ -22,5 +22,5 @@ case
 	
            *)   echo 'Usage: manage_my_process {start|stop|restart}'
 		;;
-
+		
 	esac
