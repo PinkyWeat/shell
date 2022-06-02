@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #script writes indefinitely "I am alive" to file /tmp/my_process with a sleep of 2 seconds
 
-while :
+while true 
  do
         printf "%s\n" "I am alive!"
         sleep 2
